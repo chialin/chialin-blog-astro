@@ -19,16 +19,30 @@ const {
 <a href="/" class="navbar-brand block">
   {
     src || logo ? (
-      <img
-        width={logo_width.replace("px", "") * 2}
-        height={logo_height.replace("px", "") * 2}
-        src={src ? src : logo}
-        alt={title}
-        style={{
-          height: logo_height.replace("px", "") + "px",
-          width: logo_width.replace("px", "") + "px",
-        }}
-      />
+      <>
+        <img
+          width={logo_width.replace("px", "") * 2}
+          height={logo_height.replace("px", "") * 2}
+          src={src ? src : logo}
+          alt={title}
+          class="dark:hidden"
+          style={{
+            height: logo_height.replace("px", "") + "px",
+            width: logo_width.replace("px", "") + "px",
+          }}
+        />
+        <img
+          width={logo_width.replace("px", "") * 2}
+          height={logo_height.replace("px", "") * 2}
+          src="/images/dark-logo.png"
+          alt={title}
+          class="hidden dark:block"
+          style={{
+            height: logo_height.replace("px", "") + "px",
+            width: logo_width.replace("px", "") + "px",
+          }}
+        />
+      </>
     ) : logo_text ? (
       logo_text
     ) : (
