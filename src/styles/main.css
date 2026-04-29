@@ -11,6 +11,17 @@
   @import "./base.css";
 }
 
+html.dark {
+  --color-body: var(--color-darkmode-body);
+  --color-border: var(--color-darkmode-border);
+  --color-light: var(--color-darkmode-light);
+  --color-dark: var(--color-darkmode-dark);
+  --color-primary: var(--color-darkmode-primary);
+  --color-text: var(--color-darkmode-text);
+  --color-text-dark: var(--color-darkmode-text-dark);
+  --color-text-light: var(--color-darkmode-text-light);
+}
+
 @layer components {
   @import "./components.css";
   @import "./navigation.css";
