@@ -33,12 +33,14 @@ const { title, meta_title, description, image, noindex, canonical } =
 <html lang="en">
   <head>
     <script is:inline>
-      (function () {
+      function applyTheme() {
         var stored = localStorage.getItem("theme");
         var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
         var shouldBeDark = stored === "dark" || (stored !== "light" && prefersDark);
-        if (shouldBeDark) document.documentElement.classList.add("dark");
-      })();
+        document.documentElement.classList.toggle("dark", shouldBeDark);
+      }
+      applyTheme();
+      document.addEventListener("astro:after-swap", applyTheme);
     </script>
     <!-- favicon -->
     <link rel="shortcut icon" href={config.site.favicon} />
