@@ -6,7 +6,7 @@ date: '2024-10-27'
 tags:
   - People
 categories:
-  - others
+  - thoughts
 authors:
   - chialin
 draft: false

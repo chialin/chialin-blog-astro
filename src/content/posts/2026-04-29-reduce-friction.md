@@ -4,6 +4,8 @@ slug: reduce-friction
 description: 意志力是有限的資源，所以持續學習一件事情的方式很難一直使用意志力。因此降低阻力成為一個較容易的方案。
 date: 2026-04-29
 image: /images/IDG_20260323_151907_756.jpeg
+categories:
+  - thoughts
 draft: false
 ---
 由於意志力是有限的資源，所以持續學習一件事情的方式很難一直使用意志力。

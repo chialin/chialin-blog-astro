@@ -7,7 +7,7 @@ tags:
   - 生活
   - 反思
 categories:
-  - others
+  - thoughts
 authors:
   - chialin
 draft: false

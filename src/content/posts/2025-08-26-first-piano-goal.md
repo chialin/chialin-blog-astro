@@ -7,7 +7,7 @@ tags:
   - 學習
   - 鋼琴
 categories:
-  - others
+  - learning
 authors:
   - chialin
 draft: false

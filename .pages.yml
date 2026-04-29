@@ -3,14 +3,21 @@ content:
     label: 文章
     type: collection
     path: src/content/posts
-    filename: '{year}-{month}-{day}-{fields.slug}.md'
+    filename: "{year}-{month}-{day}-{fields.slug}.md"
     view:
       fields: [title, date, tags, draft]
       sort: [date desc]
     fields:
       - { name: title, label: 標題, type: string, required: true }
-      - { name: slug, label: URL slug（小寫英文/數字/連字號）, type: string, required: true, pattern: '^[a-z0-9-]+$' }
+      - {
+          name: slug,
+          label: URL slug（小寫英文/數字/連字號）,
+          type: string,
+          required: true,
+          pattern: "^[a-z0-9-]+$",
+        }
       - { name: description, label: 摘要, type: text }
+      - { name: body, label: 內文, type: rich-text }
       - { name: date, label: 發布日期, type: date, required: true }
       - { name: image, label: 封面圖, type: image }
       - name: tags
@@ -19,10 +26,27 @@ content:
         list: true
         options:
           creatable: true
-      - { name: categories, label: 分類, type: string, list: true, default: [others], hidden: true }
-      - { name: authors, label: 作者, type: string, list: true, default: [chialin], hidden: true }
+      - name: categories
+        label: 分類
+        type: string
+        list: true
+        default: [thoughts]
+        options:
+          values:
+            - { value: thoughts, label: 隨筆思考 }
+            - { value: learning, label: 學習筆記 }
+            - { value: japan, label: Japan }
+            - { value: climbing, label: 攀岩 }
+          creatable: true
+      - {
+          name: authors,
+          label: 作者,
+          type: string,
+          list: true,
+          default: [chialin],
+          hidden: true,
+        }
       - { name: draft, label: 草稿, type: boolean, default: false }
-      - { name: body, label: 內文, type: rich-text }
 
 media:
   input: public/images

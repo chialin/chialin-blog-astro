@@ -7,7 +7,7 @@ image: /images/ocean.jpeg
 tags:
   - Boundary
 categories:
-  - others
+  - thoughts
 authors:
   - chialin
 draft: false

@@ -6,7 +6,7 @@ date: '2024-11-16'
 tags:
   - Attention
 categories:
-  - others
+  - thoughts
 authors:
   - chialin
 draft: false

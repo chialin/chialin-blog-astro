@@ -6,7 +6,7 @@ date: '2025-08-03'
 tags:
   - life
 categories:
-  - others
+  - learning
 authors:
   - chialin
 draft: false

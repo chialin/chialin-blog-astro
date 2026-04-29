@@ -8,7 +8,7 @@ tags:
   - Relationship
   - Boundary
 categories:
-  - others
+  - thoughts
 authors:
   - chialin
 draft: false

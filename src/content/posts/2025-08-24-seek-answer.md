@@ -6,7 +6,7 @@ date: '2025-08-24'
 tags:
   - life
 categories:
-  - others
+  - thoughts
 authors:
   - chialin
 draft: false

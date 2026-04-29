@@ -6,7 +6,7 @@ date: '2023-07-30'
 tags:
   - life
 categories:
-  - others
+  - thoughts
 authors:
   - chialin
 draft: false
