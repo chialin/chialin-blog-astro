@@ -1,0 +1,29 @@
+content:
+  - name: posts
+    label: 文章
+    type: collection
+    path: src/content/posts
+    filename: '{year}-{month}-{day}-{fields.slug}.md'
+    view:
+      fields: [title, date, tags, draft]
+      sort: [date desc]
+    fields:
+      - { name: title, label: 標題, type: string, required: true }
+      - { name: slug, label: URL slug（小寫英文/數字/連字號）, type: string, required: true, pattern: '^[a-z0-9-]+$' }
+      - { name: description, label: 摘要, type: text }
+      - { name: date, label: 發布日期, type: date, required: true }
+      - { name: image, label: 封面圖, type: image }
+      - name: tags
+        label: 標籤
+        type: string
+        list: true
+        options:
+          creatable: true
+      - { name: categories, label: 分類, type: string, list: true, default: [others], hidden: true }
+      - { name: authors, label: 作者, type: string, list: true, default: [chialin], hidden: true }
+      - { name: draft, label: 草稿, type: boolean, default: false }
+      - { name: body, label: 內文, type: rich-text }
+
+media:
+  input: public/images
+  output: /images
