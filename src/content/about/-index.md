@@ -1,23 +1,22 @@
 ---
-title: "I’m John Doe, A content writer based in LDN, Currently at Bookworm"
-meta_title: "About"
-image: "/images/author.png"
+title: "關於"
+meta_title: "關於 — Chialin Shih's Blog"
+image: "/images/authors/chialin.png"
 draft: false
 
 what_i_do:
-  title: "What I Do"
+  title: "這個 blog 的主題"
   items:
-  - title: "Content Writing"
-    description: "Purus eget ipsum elementum venenatis, quis rutrum mi semper nonpurus eget ipsum elementum venenatis."
-  
-  - title: "Photography"
-    description: "Aenean maximus urna magna elementum, quis rutrum mi semper non purus eget ipsum venenatis."
-  
-  - title: "Web Research"
-    description: "Aenean maximus urna magna elementum venenatis, quis semper non purus eget ipsum venenatis."
-
+    - title: "生活思考"
+      description: "記錄日常中的觀察、反思與感受。"
+    - title: "學習歷程"
+      description: "學習新事物的過程、方法與心得。"
+    - title: "關係與界限"
+      description: "與他人相處、建立自我界限的思考。"
 ---
 
-A content writer with over 12 years experience working across brand identity, publishing and digital products. Maecenas sit amet purus eget ipsum elementum venenatis. Aenean maximus urna magna elementum venenatis quis non purus.
+一個意外，活動受到侷限，展開一場挫敗與面對自我的旅途。
 
-Purus eget ipsum elementum venenatis. Aenean maximus urna magna elementum venenatis, quis rutrum mi semper non purus eget ipsum elementum venenatis, aenean maximus urna magna elementum.
+如何與自己相處，什麼是自己想要的生活？
+
+因此，慢慢地有了自己的想法。接受「變動才是唯一不變」的想法後，心理的矛盾、內耗都減少了許多。
