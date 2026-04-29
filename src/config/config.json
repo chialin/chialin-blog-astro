@@ -6,8 +6,8 @@
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
-    "logo_width": "32px",
-    "logo_height": "32px",
+    "logo_width": "160px",
+    "logo_height": "46px",
     "logo_text": "Chialin Shih"
   },
   "settings": {
