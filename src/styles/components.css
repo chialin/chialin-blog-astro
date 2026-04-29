@@ -84,6 +84,10 @@
   @apply prose-td:relative prose-td:z-10 prose-td:px-3 prose-td:py-[18px];
 }
 
+html.dark .content {
+  @apply prose-invert;
+}
+
 /* tab */
 .tab {
   @apply overflow-hidden rounded-lg border border-border;

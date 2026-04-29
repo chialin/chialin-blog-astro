@@ -20,7 +20,7 @@
 }
 
 .nav-dropdown-list {
-  @apply z-10 rounded-lg bg-white px-6 py-3 shadow transition;
+  @apply z-10 rounded-lg bg-body px-6 py-3 shadow transition;
 }
 
 .nav-dropdown-item {
@@ -33,7 +33,7 @@
 
 /* search style */
 .search-modal {
-  @apply invisible absolute top-0 left-0 right-0 z-10 h-10 bg-white opacity-0 transition md:h-full;
+  @apply invisible absolute top-0 left-0 right-0 z-10 h-10 bg-body opacity-0 transition md:h-full;
 }
 
 .search-modal .form-input {
