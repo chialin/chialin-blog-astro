@@ -80,13 +80,15 @@ const { title, description, authors, categories, image, date, tags } =
       <div class="col-12 mt-8 mb-2">
         {
           image && (
-            <Image
-              src={image}
-              height={500}
-              width={1000}
-              alt={title}
-              class="rounded-lg"
-            />
+            <div class="aspect-video overflow-hidden rounded-lg">
+              <Image
+                src={image}
+                height={500}
+                width={1000}
+                alt={title}
+                class="w-full h-full object-cover"
+              />
+            </div>
           )
         }
       </div>
