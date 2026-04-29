@@ -1,6 +1,7 @@
 ---
 import Base from "@/layouts/Base.astro";
 import { getSinglePage } from "@/lib/contentParser.astro";
+import { getCoverImage } from "@/lib/utils/coverImage";
 import PostSingle from "@/partials/PostSingle.astro";
 
 export async function getStaticPaths() {
@@ -17,7 +18,8 @@ export async function getStaticPaths() {
 }
 
 const { post } = Astro.props;
-const { title, meta_title, image, description } = post.data;
+const { title, meta_title, description } = post.data;
+const image = getCoverImage(post);
 ---
 
 <Base

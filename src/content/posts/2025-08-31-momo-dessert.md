@@ -6,7 +6,7 @@ date: '2025-08-31'
 tags:
   - 甜點
 categories:
-  - thoughts
+  - life
 authors:
   - chialin
 draft: false
