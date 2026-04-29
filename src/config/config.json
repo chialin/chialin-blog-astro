@@ -1,39 +1,40 @@
 {
   "site": {
-    "title": "Bookworm Light Astro | Blog Template",
-    "base_url": "https://bookworm-light-astro.vercel.app",
+    "title": "Chialin Shih's Blog",
+    "base_url": "https://blog.chialin.me",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
-    "logo_width": "200",
-    "logo_height": "34",
-    "logo_text": "Bookworm Light"
+    "logo_width": "32px",
+    "logo_height": "32px",
+    "logo_text": "Chialin Shih"
   },
-
   "settings": {
-    "pagination": 5
+    "search": true,
+    "sticky_header": true,
+    "theme_switcher": true,
+    "default_theme": "system",
+    "pagination": 10,
+    "summary_length": 200,
+    "blog_folder": "posts"
   },
-
   "metadata": {
-    "meta_author": "Themefisher",
+    "meta_author": "chialin",
     "meta_image": "/images/og-image.png",
-    "meta_description": "Bookworm Light Astro Blog Template"
+    "meta_description": "Chialin Shih 的個人 blog，記錄生活與思考。"
   },
-
   "google_tag_manager": {
-    "enable": true,
-    "gtm_id": "GTM-XXXXXX"
+    "enable": false,
+    "gtm_id": ""
   },
-
+  "contactinfo": {
+    "address": "Taiwan",
+    "email": "scarlett.shih@proton.me",
+    "phone": ""
+  },
   "params": {
     "contact_form_action": "#",
-    "copyright": "Copyright © 2026 a theme by [Themefisher](https://themefisher.com)"
-  },
-
-  "contactinfo": {
-    "address": "355 S Grand Ave <br/> Los Angeles, CA 90071",
-    "email": "info@bookworm.org",
-    "phone": "+800 567 1234"
+    "copyright": "© 2026 chialin"
   }
 }
