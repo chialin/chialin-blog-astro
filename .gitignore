@@ -22,3 +22,6 @@ package-lock.json
 
 # ignore .astro directory
 .astro
+
+# Claude Code workspace files (sessions, cache, local launch config)
+.claude/
