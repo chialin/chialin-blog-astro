@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Chialin Shih's Blog",
+    "title": "Chialin Shih",
     "base_url": "https://blog.chialin.me",
     "base_path": "/",
     "trailing_slash": false,

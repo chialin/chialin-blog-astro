@@ -1,6 +1,6 @@
 ---
 title: "關於"
-meta_title: "關於 — Chialin Shih's Blog"
+meta_title: "關於 — Chialin Shih"
 image: "/images/authors/chialin.png"
 draft: false
 
