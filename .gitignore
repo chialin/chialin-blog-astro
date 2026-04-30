@@ -25,3 +25,7 @@ package-lock.json
 
 # Claude Code workspace files (sessions, cache, local launch config)
 .claude/
+
+# Local-only documentation (research notes, skill-generated specs/plans)
+docs/research/
+docs/superpowers/
