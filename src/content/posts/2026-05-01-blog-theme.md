@@ -3,12 +3,12 @@ title: 部落格改版
 slug: blog-theme
 description: 為了解決資料留存問題，著手改善了舊有部落格機制的使用方式。
 date: 2026-05-01
-image: /images/IDG_20260323_155434_462.jpeg
+image: /images/ blog-theme.png
 tags:
-  - Tech
+  - coding
   - Ownmydata
 categories:
-  - thoughts
+  - Tech
 draft: false
 ---
 上個版本的部落格因為無法在手機上隨時編輯內容，且原本設計機制導致無法將在 Osidian App 內的照片上傳一份到部落格系統，因此無法時常更新。
