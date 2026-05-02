@@ -15,7 +15,7 @@ type Props = {
 
 const authors = await getSinglePage("authors");
 const { className, posts, fluid } = Astro.props;
-const featureFirst = fluid !== false && posts.length % 2 === 1;
+const featureFirst = fluid !== false;
 ---
 
 <div
