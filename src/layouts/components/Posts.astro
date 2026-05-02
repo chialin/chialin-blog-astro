@@ -15,6 +15,7 @@ type Props = {
 
 const authors = await getSinglePage("authors");
 const { className, posts, fluid } = Astro.props;
+const featureFirst = fluid !== false && posts.length % 2 === 1;
 ---
 
 <div
@@ -22,7 +23,7 @@ const { className, posts, fluid } = Astro.props;
 >
   {
     posts.map((post, i: number) => (
-      <div class={i === 0 && fluid != false ? "col-12" : "col-12 sm:col-6"}>
+      <div class={i === 0 && featureFirst ? "col-12" : "col-12 sm:col-6"}>
         <a
           href={`/blog/${post.id}`}
           class="rounded-lg block hover:text-primary overflow-hidden group aspect-video"
@@ -31,8 +32,8 @@ const { className, posts, fluid } = Astro.props;
             class="group-hover:scale-[1.03] transition duration-300 w-full h-full object-cover"
             src={getCoverImage(post)}
             alt={post.data.title}
-            width={i === 0 ? 925 : 445}
-            height={i === 0 ? 475 : 230}
+            width={i === 0 && featureFirst ? 925 : 445}
+            height={i === 0 && featureFirst ? 475 : 230}
           />
         </a>
         <ul class="mt-6 mb-4 flex flex-wrap items-center text-text">
