@@ -26,6 +26,25 @@ content:
         list: true
         options:
           creatable: true
+          values:
+            - AI
+            - Claude
+            - coding
+            - web
+            - daily
+            - life
+            - 生活
+            - 反思
+            - 學習
+            - 日本語
+            - 鋼琴
+            - 甜點
+            - Food
+            - People
+            - Relationship
+            - Boundary
+            - Attention
+            - Ownmydata
       - name: categories
         label: 分類
         type: string
