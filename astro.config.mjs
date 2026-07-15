@@ -5,6 +5,7 @@ import tailwindcss from "@tailwindcss/vite";
 import AutoImport from "astro-auto-import";
 import gtm from "astro-gtm-lite";
 import { defineConfig, fontProviders, sharpImageService } from "astro/config";
+import rehypeLazyImages from "./src/lib/rehypeLazyImages.mjs";
 import config from "./src/config/config.json";
 import theme from "./src/config/theme.json";
 
@@ -75,5 +76,6 @@ export default defineConfig({
   ],
   markdown: {
     shikiConfig: { theme: "one-dark-pro", wrap: true },
+    rehypePlugins: [rehypeLazyImages],
   },
 });
